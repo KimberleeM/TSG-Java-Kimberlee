@@ -2,7 +2,7 @@ package com.kimberlee.exercise02;
 
 /**
  *
- * @author 13479
+ * @author Max
  */
 public class BestAdderEver {
     public static void main(String[] args) {

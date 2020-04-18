@@ -4,7 +4,7 @@ package com.kimberlee.helloworld;
 
 /**
  *
- * @author Max Mendoza
+ * @author Max 
  */
 public class Hello {
     public static void main (String [] args ) {
