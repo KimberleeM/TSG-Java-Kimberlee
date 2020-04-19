@@ -14,10 +14,14 @@ public class WindowMaster {
         //declare variables for height and width 
         float height;
         float width;
+        float cog;
+        float cot;
 
         //declare String variables for height and width input
         String stringHeight;
         String stringWidth;
+        String stringcog;
+        String stringcot;
 
         //declare other variables 
         float areaOfWindow;
@@ -32,10 +36,18 @@ public class WindowMaster {
         stringHeight = myScanner.nextLine();
         System.out.println("Please enter window width:");
         stringWidth = myScanner.nextLine();
+        System.out.println("Cost of glass: ");
+        stringcog = myScanner.nextLine();
+        System.out.println("Cost of trim: ");
+        stringcot = myScanner.nextLine();
+
+        
 
         //convert String values of height and width to float values 
         height = Float.parseFloat(stringHeight);
         width = Float.parseFloat(stringWidth);
+        cog = Float.parseFloat(stringcog);
+        cot = Float.parseFloat(stringcot);
 
         //calculate the area of window 
         areaOfWindow = height * width;
@@ -44,7 +56,7 @@ public class WindowMaster {
         perimeterOfWindow = 2 * (height + width);
         
         //calculate the total cost - use a hard-coded value for material cost 
-        cost = ((3.50f * areaOfWindow) + (2.25f * perimeterOfWindow));
+        cost = ((cog * areaOfWindow) + (cot * perimeterOfWindow));
         
         //display the results to the user 
         System.out.println("Window height = " + stringHeight);
@@ -53,5 +65,9 @@ public class WindowMaster {
         System.out.println("Window perimeter = " + perimeterOfWindow );
         System.out.println("Total Cost = " + cost);
 
+        
+        //testing values: height = 2. widht = 3, cog = 3.50,
+        //at the end, test 2.25 in the trim cost and make sure total cost is 43.50
     }
 }
+ 
