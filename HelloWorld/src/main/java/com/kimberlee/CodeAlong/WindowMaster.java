@@ -1,4 +1,4 @@
-package CodeAlong;
+package com.kimberlee.CodeAlong;
 
 /**
  *
