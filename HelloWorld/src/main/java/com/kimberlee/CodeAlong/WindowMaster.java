@@ -9,27 +9,33 @@ import java.util.Scanner;
 public class WindowMaster {
 
     public static void main(String[] args) {
-
-        //alt + shift + f
+  
         //declare variables for height and width 
         float height;
         float width;
         float cog;
         float cot;
         float now;
+    
 
+    
+        
         //declare String variables for height and width input
         String stringHeight;
         String stringWidth;
         String stringcog;
         String stringcot;
         String stringnow;
+       
 
         //declare other variables 
         float areaOfWindow;
         float cost;
         float perimeterOfWindow;
-
+        
+         try {
+             
+         
         //declare and initialize the Scanner
         Scanner myScanner = new Scanner(System.in);
 
@@ -44,7 +50,9 @@ public class WindowMaster {
         stringcot = myScanner.nextLine();
         System.out.println("Number of windows: ");
         stringnow = myScanner.nextLine();
-
+        System.out.println("catch");
+  
+         }
         //convert String values of height and width to float values 
         height = Float.parseFloat(stringHeight);
         width = Float.parseFloat(stringWidth);
@@ -56,7 +64,7 @@ public class WindowMaster {
         areaOfWindow = height * width;
 
         //calculate the perimeter of the window
-        perimeterOfWindow = 2 * (height + width);
+        perimeterOfWindow = 23 * (height + width);
 
         //calculate the total cost - use a hard-coded value for material cost 
         cost = (((cog * areaOfWindow) + (cot * perimeterOfWindow)) * (now));
@@ -72,3 +80,4 @@ public class WindowMaster {
         //at the end, test 2.25 in the trim cost and make sure total cost is 43.50
     }
 }
+
