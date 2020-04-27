@@ -33,7 +33,7 @@ public class WindowMaster {
         float cost;
         float perimeterOfWindow;
         
-         try {
+
              
          
         //declare and initialize the Scanner
@@ -51,8 +51,8 @@ public class WindowMaster {
         System.out.println("Number of windows: ");
         stringnow = myScanner.nextLine();
         System.out.println("catch");
-  
-         }
+          
+       
         //convert String values of height and width to float values 
         height = Float.parseFloat(stringHeight);
         width = Float.parseFloat(stringWidth);
@@ -62,7 +62,7 @@ public class WindowMaster {
 
         //calculate the area of window 
         areaOfWindow = height * width;
-
+ 
         //calculate the perimeter of the window
         perimeterOfWindow = 23 * (height + width);
 
@@ -78,6 +78,6 @@ public class WindowMaster {
 
         //testing values: height = 2. widht = 3, cog = 3.50,
         //at the end, test 2.25 in the trim cost and make sure total cost is 43.50
-    }
-}
-
+         }
+         
+ }
