@@ -7,11 +7,11 @@ package com.kimberlee.exercise08;
 public class ReturnToSender {
 
     public static void main(String[] args) {
-         ?  ?  ? aMystery = mystery();
-         ?  ?  ? totallyUnexpected = unexpected();
-         ?  ?  ? aSurprise = surprise();
-         ?  ?  ? itsClassified = classified();
-         ?  ?  ? aSecret = secret();
+         char aMystery = mystery();
+         String totallyUnexpected = unexpected();
+         double aSurprise = surprise();
+         boolean itsClassified = classified();
+         int aSecret = secret();
 
         System.out.println("The methods have returned! Their results ...\n");
         System.out.println("Mysterious: " + aMystery);

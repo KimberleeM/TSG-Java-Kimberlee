@@ -7,11 +7,11 @@ package com.kimberlee.exercise08;
 public class MatchWork {
     public static void main(String[] args) {
         
-        System.out.println(" The word Cart should come before Horse alphabetically : " + comesBefore(???));
-        System.out.println(" Half of 42 = " + halfOf(???));
-        System.out.println(" (short) Pi = " + pi(???));
-        System.out.println(" The first letter of the word Llama is: " + firstLetter(???));
-        System.out.println(" 1337 x 1337 = " + times1337(???)); 
+        System.out.println(" The word Cart should come before Horse alphabetically : " + comesBefore("cart" , "horse"));
+        System.out.println(" Half of 42 = " + halfOf(42));
+        System.out.println(" (short) Pi = " + pi());
+        System.out.println(" The first letter of the word Llama is: " + firstLetter("Llama"));
+        System.out.println(" 1337 x 1337 = " + times1337(1337)); 
     }
     
     public static double pi(){
@@ -22,7 +22,7 @@ public class MatchWork {
         return x * 1337;
     }
     
-    public static double halfOf(double y){
+    public static double halfOf(double y){ 
         return y / 2;
     }
     
