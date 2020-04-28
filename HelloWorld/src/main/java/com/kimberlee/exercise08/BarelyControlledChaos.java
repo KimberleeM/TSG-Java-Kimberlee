@@ -30,7 +30,7 @@ public class BarelyControlledChaos {
         System.out.println("I had to hide in a field of over " + number + " " + colorAgain 
          + " poppies for nearly " + time + " hours until it left me alone!");
         
-        System.out.println("\n It was QUITE the experience, let me telle you!");
+        System.out.println("\n It was QUITE the experience, let me tell you!");
     }
     
     //???Method 1???
@@ -79,7 +79,7 @@ public class BarelyControlledChaos {
         
         
         
-    }
+     }
     
     
     
