@@ -15,13 +15,18 @@ public class FruitsBasket {
             "Apple", "Apple", "Apple", "Orange", "Orange", "PawPaw", "Apple", "Orange\n",
             "Orange", "Apple", "Orange", "Orange", "Apple", "Apple", "Orange", "Orange\n",
             "Apple", "Orange", "Apple", "Kiwi", "Orange", "Apple", "Orange",
-            "Drangon", "Apple", "Orange", "Orange"};
+            "Dragonfruit", "Apple", "Orange", "Orange"};
         
-        int numOfOranges= 0;
-        int numApples = 0;
-        int numOtherFruit = 0;
+        int numOfOranges=33 ;
+        int numApples = 28;
+        int numOtherFruit = 4;
+        
+        System.out.println("Total# of fruits in basket: ");
+
         
         // Fruit counting code goes here!!
+        
+        
         //Print results!
         }
     }
