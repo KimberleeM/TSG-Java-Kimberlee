@@ -13,8 +13,6 @@ public class House01 {
         
     }
     
-    
-    
     public String getAddress(){
         return address;
     }
