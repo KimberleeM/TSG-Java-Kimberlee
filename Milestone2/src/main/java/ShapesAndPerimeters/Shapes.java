@@ -15,9 +15,19 @@ public abstract class Shapes {
     public abstract double getPerimeter();
 
     public static void main(String[] args) {
-       
-        Shapes shp = new Square();
-        shp.getArea();
-        shp.getPerimeter();
+
+        Shapes square = new Square();
+        square.getArea();
+        square.getPerimeter();
+        Shapes triangle = new Triangle();
+        triangle.getArea();
+        triangle.getPerimeter();
+        Shapes rectangle = new Rectangle();
+        rectangle.getArea();
+        rectangle.getPerimeter();
+        Shapes circle = new Circle();
+        circle.getArea();
+        circle.getPerimeter();
+
     }
 }
